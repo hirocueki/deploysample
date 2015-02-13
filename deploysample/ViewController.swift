@@ -23,8 +23,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelSample: UILabel!
 
     @IBAction func pushButton(sender: AnyObject) {
-        labelSample.text =  rand().description
+        let max : Int32 = rand()
+        labelSample.text = max.description
+        
+        myStepper.maximumValue = Double(max)
+        myStepper.value =  myStepper.maximumValue
+
     }
 
+    @IBOutlet weak var myStepper: UIStepper!
+  
+    @IBAction func valueChange(sender: AnyObject) {
+        labelSample.text =  Int32(myStepper.value).description
+    }
 }
 
