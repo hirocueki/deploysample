@@ -13,6 +13,7 @@
 		1478A5551A8D9C4A003D254E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1478A5541A8D9C4A003D254E /* Images.xcassets */; };
 		1478A5581A8D9C4A003D254E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1478A5561A8D9C4A003D254E /* LaunchScreen.xib */; };
 		1478A5641A8D9C4A003D254E /* deploysampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478A5631A8D9C4A003D254E /* deploysampleTests.swift */; };
+		1478A56E1A8DF409003D254E /* dot_baymax.png in Resources */ = {isa = PBXBuildFile; fileRef = 1478A56D1A8DF409003D254E /* dot_baymax.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1478A55D1A8D9C4A003D254E /* deploysampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deploysampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1478A5621A8D9C4A003D254E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1478A5631A8D9C4A003D254E /* deploysampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deploysampleTests.swift; sourceTree = "<group>"; };
+		1478A56D1A8DF409003D254E /* dot_baymax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_baymax.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1478A54A1A8D9C4A003D254E /* deploysample */ = {
 			isa = PBXGroup;
 			children = (
+				1478A56D1A8DF409003D254E /* dot_baymax.png */,
 				1478A54D1A8D9C4A003D254E /* AppDelegate.swift */,
 				1478A54F1A8D9C4A003D254E /* ViewController.swift */,
 				1478A5511A8D9C4A003D254E /* Main.storyboard */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1478A5531A8D9C4A003D254E /* Main.storyboard in Resources */,
+				1478A56E1A8DF409003D254E /* dot_baymax.png in Resources */,
 				1478A5581A8D9C4A003D254E /* LaunchScreen.xib in Resources */,
 				1478A5551A8D9C4A003D254E /* Images.xcassets in Resources */,
 			);

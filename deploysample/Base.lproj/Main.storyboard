@@ -38,11 +38,20 @@
                                     <action selector="valueChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="sU2-Cq-Uof"/>
                                 </connections>
                             </stepper>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dot_baymax.png" translatesAutoresizingMaskIntoConstraints="NO" id="vXM-20-XX8">
+                                <rect key="frame" x="66" y="275.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Sid-O2-LZP"/>
+                                    <constraint firstAttribute="width" constant="100" id="gNq-oy-ENo"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uQv-mG-3tt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="HPv-XL-bni"/>
                             <constraint firstItem="g0E-MZ-GPX" firstAttribute="top" secondItem="uQv-mG-3tt" secondAttribute="bottom" constant="80" id="MXE-0G-PAk"/>
+                            <constraint firstItem="vXM-20-XX8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="Saq-TI-0ua"/>
+                            <constraint firstItem="vXM-20-XX8" firstAttribute="top" secondItem="fHt-oh-FZD" secondAttribute="bottom" constant="50" id="XfO-UX-NvQ"/>
                             <constraint firstItem="fHt-oh-FZD" firstAttribute="top" secondItem="g0E-MZ-GPX" secondAttribute="top" constant="1" id="bma-gh-niH"/>
                             <constraint firstItem="fHt-oh-FZD" firstAttribute="leading" secondItem="g0E-MZ-GPX" secondAttribute="trailing" constant="20" id="dQN-rQ-NEw"/>
                             <constraint firstItem="g0E-MZ-GPX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="ePL-wf-ejh"/>
@@ -64,4 +73,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="dot_baymax.png" width="320" height="320"/>
+    </resources>
 </document>
